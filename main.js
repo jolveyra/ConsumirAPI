@@ -57,6 +57,9 @@ async function ejecucion() {
           JSON.stringify(response.data, null, 2)
         );
         console.log("Datos de la solicitud original:", request);
+
+        //Podría tomar los datos de la solicitud original y ponerlos en un excel y en la misma fila poner los datos de la respuesta.
+
       });
     })
     .catch((error) => {
